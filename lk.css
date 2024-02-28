@@ -59,3 +59,31 @@ p{
     text-align: center;
     margin-left: 20px;
 }
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90vw;
+        height: auto;
+        margin: 40px auto;
+    }
+
+    .one {
+        padding-left: 20px;
+    }
+
+    .second {
+        font-size: 16px;
+        padding: 5px;
+        width: auto;
+        height: auto;
+        margin-left: 20px;
+    }
+
+    p, .third h1, .author-name {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .four .author-info {
+        margin-left: 10px;
+    }
+}
